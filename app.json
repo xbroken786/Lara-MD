@@ -28,7 +28,7 @@
     "AUTO_VOICE": {
       "description": "Auto send voice message",
       "required": true,
-      "value":. "true"
+      "value": "true"
     },
     
     "AUTO_REPLY": {
