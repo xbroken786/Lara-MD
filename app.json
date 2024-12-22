@@ -13,12 +13,53 @@
       "value": "public"
     },  
     
-    "MONGODB": {
-      "description": "put the your mongodb database url",
+    "MODE": {
+      "description": "private,inbox,group,public",
       "required": true,
-      "value": "mongodb+srv://laramd:sadeesha2006@anya.gvsp435.mongodb.net/?retryWrites=true&w=majority&appName=Anya"
-    }
+      "value": "public"
+   },
     
+    "PREFIX": {
+      "description": "#,!,/,$",
+      "required": true,
+      "value": "."
+    },
+    
+    "AUTO_VOICE": {
+      "description": "Auto send voice message",
+      "required": true,
+      "value":. "true"
+    },
+    
+    "AUTO_REPLY": {
+      "description": "Auto reply message",
+      "required": true,
+      "value": "true"
+    },
+    
+    "AUTO_REACT": {
+      "description": "Auto react massage",
+      "required": true,
+      "value": "false"
+    },
+    
+    "AUTO_READ_STATUS": {
+      "description": "Just Now reading status",
+      "required": true,
+      "value": "true"
+    },
+    
+    "ANTI_BAD": {
+      "description": "Bad words remove",
+      "required": true,
+      "value": "false"
+    },
+    
+    "ANTI_LINK": {
+      "description": "Anti link remove",
+      "required": true,
+      "value": "false"
+    }
 },
 
      "buildpacks": [
